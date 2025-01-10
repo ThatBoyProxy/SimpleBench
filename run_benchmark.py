@@ -77,7 +77,7 @@ def run_benchmark(
         model_name=model_name,
         temp=temp,
         max_tokens=max_tokens,
-        min_p=min_p,
+        top_p=top_p,
         max_retries=max_retries,
         system_prompt=system_prompt
     )
