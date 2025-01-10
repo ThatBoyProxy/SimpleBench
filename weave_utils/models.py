@@ -21,7 +21,7 @@ MODEL_MAP = {
     "o1-preview": "o1-preview",
     "o1-mini": "o1-mini",
     "claude-3-opus-20240229": "claude-3-opus-20240229",
-    "command-r-plus": "command-r-plus-08-2024",
+    "command-r-plus": "openrouter/cohere/command-r-plus-08-2024",
     "gemini-1.5-pro": "gemini/gemini-1.5-pro",
     "llama3-405b-instruct": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
     "claude-3-haiku": "claude-3-haiku-20240307",
