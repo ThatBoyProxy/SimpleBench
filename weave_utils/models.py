@@ -46,9 +46,9 @@ class MajorityVoteModel(weave.Model):
 class LiteLLMModel(weave.Model):
     model_name: str
     system_prompt: Optional[str] = None
-    temp: float = 1
+    temp: float = 0.8
     max_tokens: int = 2048
-    top_p: float = 1
+    top_p: float = 0.95
     max_retries: int = 3
     
     def __init__(self, **data):
