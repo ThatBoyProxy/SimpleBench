@@ -15,6 +15,7 @@ from openai import RateLimitError
 
 MODEL_MAP = {
     "gpt-4o-mini": "gpt-4o-mini",
+    "deepseek": "openrouter/deepseek/deepseek-chat",
     "claude-3-5-sonnet-20240620": "openrouter/anthropic/claude-3.5-sonnet:beta",
     "gpt-4o": "gpt-4o-2024-08-06",
     "gpt-4-turbo": "gpt-4-turbo",
